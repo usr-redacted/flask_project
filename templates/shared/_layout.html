@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{%block page_title%}{%endblock%}</title>
+    <link rel="stylesheet" href="/static/css/site.css" />
+    {%block additional_css%}{%endblock%}
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </nav>
+    <div class="title">
+        {%block title%}{%endblock%}
+    </div>
+    <div class="main_content">
+        {%block main_content%}{%endblock%}
+    </div>
+    {%block additional_js%}{%endblock%}
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.title {
+    padding: 5px 10px 5px 20px;
+    font-size: 32px;
+    color: rgb(15, 36, 104);
+    font-weight: bold;
+}
+
+.main_content {
+    padding: 0px 10px 5px 20px;
+    font-size: 18px;
+}
+
+body {
+    background-color: #50678f;
+}
+
+nav {
+    background-color: #141d2b;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+nav>a {
+    color: white;
+    margin-right: 10px;
+}
+
+nav>a:hover {
+    color: yellowgreen
+}

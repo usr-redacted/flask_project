@@ -1,0 +1,22 @@
+{%extends "shared/_layout.html"%}
+{% block page_title%}Flask Project{%endblock%}
+{% block title%}Simple Flask Project Layout{%endblock%}
+{%block main_content%}
+{% if not msg %}
+<div>
+    <h1>Oops, no message to display</h1>
+</div>
+{% else %}
+<div>
+    {{ msg }}
+</div>
+{% endif %}
+{%endblock%}
+
+{%block additional_css%}
+<!-- additional css here -->
+{%endblock%}
+
+{%block additional_js%}
+<!-- additional css here -->
+{%endblock%}

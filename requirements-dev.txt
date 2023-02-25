@@ -1,0 +1,5 @@
+# developer requirements
+
+-r requirements.txt
+
+pytest
