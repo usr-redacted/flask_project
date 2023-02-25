@@ -1,3 +1,5 @@
+# https://github.com/talkpython/data-driven-web-apps-with-flask/blob/master/app/ch05_jinja_templates/final/pypi_org/infrastructure/view_modifiers.py
+
 from functools import wraps
 
 import flask
